@@ -25,7 +25,7 @@ module Eventbrite
           },
           :request => {
             :open_timeout => 10,
-            :timeout => 30,
+            :timeout => 60*10, # 60 minutes
           },
         }
       end
